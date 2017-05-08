@@ -1,0 +1,13 @@
+<div class="row">
+	{{#each infoMenu}}
+	<div class="col-md-4">
+		<div class="text-center">
+			<p>{{name}}</p>
+			<img src="./images/{{imageName}}" alt="./images/{{imageName}}" class =".img-responsive">
+			<div class="text-center">
+				<button type="button" class="btn btn-primary" onclick="buttonSelect({{@index}})">Order</button>
+			</div>
+		</div>
+	</div>
+	{{/each}}
+</div>

@@ -1,0 +1,117 @@
+/*Kelsey Windham*/
+#header ul{
+	display: inline;
+
+}
+#header{
+	text-align: center;
+}
+#header li{
+	display: inline;
+	float: center;
+	margin-right: 20px;
+	padding: 10px;
+	font-size: 2em;
+	background-color: white;
+	border:4px solid black;
+	border-radius:7px;
+
+
+	}
+#header h1{
+	margin-left:40px;
+	font-size: 4em;
+}
+.construct
+{
+	font-size: 4em;
+	text-align: center;
+
+}
+.myImage{
+	transform: rotate(90deg);
+	float: top;
+	margin-bottom: 20px;
+	margin-top:60px;
+	border: 6px solid black;
+	border-radius: 8px;
+}
+hr
+{
+	margin: 30px;
+	border-color: black;
+}
+.main{
+	text-align: center;
+	font-size: 2em;
+	text-decoration: bold;
+	padding: 10px solid white;
+	border:15px solid black;
+	border-radius: 20px;
+	background-color: white;
+	margin: 20px;
+
+}
+.content{
+	font-color:black;
+}
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+}
+
+.course td, th, caption{
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    padding: 8px;
+    background-color: #cfcfd1;
+}
+th{
+	font-weight: bold;
+	font-size: 2em;
+}
+caption{
+	text-align: center;
+	font-size: 3em;
+	font-weight: bold;
+}
+.year{
+	text-align: center;
+}
+.teacher{
+	text-align: right;
+}
+h3, h2{
+	text-align: center;
+}
+.bio{
+	text-align: left;
+}
+.farlow{
+	margin-left: 600px;
+	margin-bottom: 40px;
+	border: 6px solid black;
+	border-radius: 8px;
+}
+.form2{
+	margin-top: 20px;
+	font-size: 2em;
+}
+.form{
+
+	float: right;
+	width: 300px;
+	margin:40px;
+
+}
+.symPage{
+margin:40px;
+
+}
+.sym{
+	border: 8px solid black;
+	border-radius: 10px;
+	margin-bottom: 80px;
+	
+}

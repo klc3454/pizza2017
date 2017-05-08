@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pizza Shop</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="./css/styleB.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+	<div class="container">
+		<div class="page-header">
+
+			<div class="row">
+
+				<img class="col-md-2" src="./images/pizza.jpg" alt="logo" >
+
+				<div class="col-md-8 col-md-push-2">
+
+					<ul  class="list-inline">	
+						<li><a class="list-inline-item" href="./menu.html">Menu</a></li>
+						<li><a class="list-inline-item" href="./main.html">Main</a></li>
+						<li><a class="list-inline-item" href="./special.html">Special</a></li>
+						<li><a class="list-inline-item" href="./about.html">About</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-2 col-md-pull-1">
+					<a href="cart.html"> <img class=cart img src="./images/cart.png" alt="cart" style="width:60px;height:60px;"><span class="badge" id= "numItem">0</span></a>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="row2">
+
+			<p>About About About...what???</p>
+		</div>
+
+
+
+		
+		<footer>
+		
+			<img src="./images/pizza.jpg" alt="logo" height="100" width="100">
+			<a class="list-inline-item" href="./service.html">Customer Service</a>
+			<a class="list-inline-item" href="./account.html">Account</a>
+			<a class="list-inline-item" href="./special.html">Special</a>
+			<a class="list-inline-item" href="./about.html">About</a>
+			<div class="row">
+				<div class="col-md-3">
+					<p>Lorem ipsum Sit amet adipisicing dolor non anim voluptate cillum dolor eu eu ad irure.</p>
+				</div>
+				<div class="col-md-3">
+					<p>Lorem ipsum Sit amet adipisicing dolor non anim voluptate cillum dolor eu eu ad irure.</p>
+				</div>
+				<div class="col-md-3">
+					<p>Lorem ipsum Sit amet adipisicing dolor non anim voluptate cillum dolor eu eu ad irure.</p>
+				</div>
+				<div class="col-md-3">
+					<p>items</p>
+				</div>
+				<button type="button" onclick="clearCart()" class="btn btn-danger ">Remove Items</button>
+			</div>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="./JavaScript/cartClient.js">
+	</script>
+	<script type="text/javascript">
+		registerButtonEvent();
+	</script>
+
+</body>
+</html>
